@@ -42,17 +42,33 @@ If an OpenAI key is provided, then the OpenAI key will be validated, if the API 
 If the Hugging Face key is provided, then the Hugging Face will be validated, if the Hugging Face key is valid then the Right Pane Controls will be enabled
 The below screenshot is for reference
 
-<img width="959" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/31e9c78a-c6c9-4990-a307-99a946052291">
+<img width="601" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/06236013-acc5-429a-9213-5712f3327795">
 
 **Stage-2**
 In the Right side Pane, we allow the user to browse the files of different file types like (pptx,pdf,csv,txt)
 Once the files are selected, the respective file names will be populated below the control, 
 Once the documents have been uploaded, then we need to embed the documents and store the embeddings in the database
-<img width="959" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/db569375-0b6c-4870-949b-dac499bb0cfb">
+
+<img width="607" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/860640da-48eb-43c6-baad-79252c1fcd24">
+
 
 We allow the user to embed the documents.
 Once the documents have been embedded the below message will be shown
 <img width="602" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/f67ad572-f8ac-4e29-b2f8-617b6f62c10e">
+
+**Stage-3**
+In the Retrieve Document Similarity Page, the below UI will be shown
+<img width="958" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/46504915-69e1-4b2d-bbd5-245668b9fb19">
+
+Here we are providing the user to enter the query so that based on the query, the **Top 3** similar documents will be fetched. Here we are using **Cosine Similarity**
+
+Once the user enters the query, the below UI will be for the reference, with the retrieved documents
+<img width="957" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/bce6463f-9179-4e2b-b4eb-5df8890ae285">
+
+**Stage-4**
+In the Query **RAG** Page, here we are providing the user with the required details he needs
+<img width="961" alt="image" src="https://github.com/phaniteja5789/VectorDocumentSearch/assets/36558484/be2e26fa-649a-4c71-b5c4-db2bd991e63a">
+Based on this project we can retrieve the documents that are similar based on the user-entered index and also the able to answer the questions user asks 
 
 
     
