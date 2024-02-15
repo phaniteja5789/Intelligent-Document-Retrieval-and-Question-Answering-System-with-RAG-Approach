@@ -1,0 +1,9 @@
+langChain
+langChain_openai
+streamlit
+openai
+streamlit_extras
+sentence-transformers
+Chromadb
+unstructured[local-inference]
+pdfminer-six
